@@ -23,3 +23,21 @@ This project presents a molecular docking simulation of the *Human Tumor Necrosi
 
 ### Objective
 Structural analysis to support a Chemistry Graduation Thesis (TCC) and demonstrate proficiency in Bioinformatics workflows.
+# Molecular Docking Project - TNF-Alpha vs Curcumin
+
+This project presents a molecular docking simulation of the *Human Tumor Necrosis Factor-alpha (1TNF)*.
+
+### Technical Details
+* *Receptor:* Human TNF-Alpha crystal structure (PDB: 1TNF) prepared in UCSF ChimeraX.
+* *Ligands:* Curcumin molecules optimized in .pdbqt format for AutoDock Vina simulation.
+* *Optimization:* Fine-tuned Grid Box targeting the trimer interface.
+* *Best Affinity Score:* *-5.948 kcal/mol*.
+
+### Tools Used
+* *Environment:* Linux (Ubuntu/WSL2).
+* *Docking Engine:* AutoDock Vina.
+* *Preparation:* OpenBabel & MGLTools.
+* *Visualization:* UCSF ChimeraX.
+
+### Objective
+Structural analysis to support a Chemistry Graduation Thesis (TCC) and demonstrate proficiency in Bioinformatics workflows.
