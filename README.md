@@ -1,47 +1,35 @@
-# Projeto de Docking Molecular - TNF-Alfa
-Este projeto apresenta a simulação de ancoramento molecular (docking) da proteína TNF-Alfa.
+Projeto: Análise Genômica e Docking Molecular (TNF-Alpha)
+Este repositório apresenta um fluxo completo de Bioinformática, integrando a análise de sequências genéticas (Genômica) com a simulação de interações moleculares (Docking).
 
-## Detalhes Técnicos
-* **Receptor:** Estrutura 1TNF preparada no ChimeraX.
-* **Ligantes:** Arquivos preparados em formato .pdbqt para simulação no AutoDock Vina.
-* **Objetivo:** Análise estrutural para suporte ao TCC de Química e competências em Bioinformática.
-# Molecular Docking Project - TNF-Alpha vs Curcumin
+🚀 Objetivo
+Analisar a proteína TNF-Alpha (Fator de Necrose Tumoral Alfa) sob duas perspectivas:
 
-This project presents a molecular docking simulation of the *Human Tumor Necrosis Factor-alpha (1TNF)*.
+Estrutural: Avaliar a afinidade de ligação com o ligante Curcumina.
 
-### Technical Details
-* *Receptor:* Human TNF-Alpha crystal structure (PDB: 1TNF) prepared in UCSF ChimeraX.
-* *Ligands:* Curcumin molecules optimized in .pdbqt format for AutoDock Vina simulation.
-* *Optimization:* Fine-tuned Grid Box targeting the trimer interface.
-* *Best Affinity Score:* *-5.948 kcal/mol*.
+Sequencial: Processar e alinhar sequências proteicas/genômicas para identificação de variantes.
 
-### Tools Used
-* *Environment:* Linux (Ubuntu/WSL2).
-* *Docking Engine:* AutoDock Vina.
-* *Preparation:* OpenBabel & MGLTools.
-* *Visualization:* UCSF ChimeraX.
+🛠️ Tecnologias e Ferramentas
+Linguagens: Python (BioPython, Pandas).
 
-### Objective
-Structural analysis to support a Chemistry Graduation Thesis (TCC) and demonstrate proficiency in Bioinformatics workflows.
-# Molecular Docking Project - TNF-Alpha vs Curcumin
+Docking: PyRx, AutoDock Vina, UCSF ChimeraX.
 
-This project presents a molecular docking simulation of the *Human Tumor Necrosis Factor-alpha (1TNF)*.
+Sistema: WSL2 (Ubuntu), Anaconda.
 
-### Technical Details
-* *Receptor:* Human TNF-Alpha crystal structure (PDB: 1TNF) prepared in UCSF ChimeraX.
-* *Ligands:* Curcumin molecules optimized in .pdbqt format for AutoDock Vina simulation.
-* *Optimization:* Fine-tuned Grid Box targeting the trimer interface.
-* *Best Affinity Score:* *-5.948 kcal/mol*.
+Bioinformática: Alinhamento de sequências (Clustal/FASTA).
 
-### Tools Used
-* *Environment:* Linux (Ubuntu/WSL2).
-* *Docking Engine:* AutoDock Vina.
-* *Preparation:* OpenBabel & MGLTools.
-* *Visualization:* UCSF ChimeraX.
+📂 Conteúdo do Repositório
+alinhamento.fasta: Sequência primária da proteína em formato bruto.
 
-### Objective
-Structural analysis to support a Chemistry Graduation Thesis (TCC) and demonstrate proficiency in Bioinformatics workflows.
-Bioinformática de Sequências
-Alinhamento: Realizado alinhamento múltiplo de sequências (MSA) para verificar conservação proteica.
+alinhamento.aln: Resultado do alinhamento múltiplo de sequências.
 
-Ferramentas: BLAST e Biopython para manipulação de sequências FASTA.
+analise_variantes.py: Script Python para automação da análise de dados genômicos.
+
+1TNF.pdb & receptor_limpo.pdbqt: Estrutura da proteína preparada para o docking.
+
+resultado_final.pdbqt: Resultado da simulação de acoplamento molecular.
+
+🔬 Resultados Obtidos
+O docking molecular demonstrou a interação da Curcumina com o sítio ativo da TNF-Alpha, com energias de afinidade que sugerem potencial inibitório. O fluxo de trabalho automatizado via Python permitiu a integração rápida entre os dados de sequenciamento e a modelagem estrutural.
+
+👨‍🔬 Autor
+José Renan Lima do Nascimento Biomédico e Pesquisador em Bioinformática.
