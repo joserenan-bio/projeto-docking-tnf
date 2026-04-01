@@ -41,3 +41,7 @@ This project presents a molecular docking simulation of the *Human Tumor Necrosi
 
 ### Objective
 Structural analysis to support a Chemistry Graduation Thesis (TCC) and demonstrate proficiency in Bioinformatics workflows.
+Bioinformática de Sequências
+Alinhamento: Realizado alinhamento múltiplo de sequências (MSA) para verificar conservação proteica.
+
+Ferramentas: BLAST e Biopython para manipulação de sequências FASTA.
